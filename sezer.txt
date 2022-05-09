@@ -1,0 +1,61 @@
+enable
+configure terminal
+hostname "jmeno"
+enable secret "heslo"
+line console 0
+password "heslo"
+login
+service password-encryption
+show running
+banner motd "message"
+banner login "message"
+copy running-conf startupconfig
+write
+
+reload
+-----------------------------------------------------
+show vlan brief
+vlan "vlan-number"
+name "vlan-name"
+interface "interface number"
+switchport mode access
+switchport access vlan "id-vlan"
+interface "interface number"
+switchport mode trunk
+switchport trunk allowed vlan "id-vlan"
+swtichport trunk native vlan 999
+interface g0/1.10
+encapsulation dot1Q "id-vlany"
+ip address "defaultgateway mask"
+show interfaces trunk
+-----------------------------------------------------
+spanning-tree vlan 1 root primary
+spanning-tree vlan 1 root secondary
+spanning-tree vlan 1 priority ?
+interface f0/1
+spanning-tree portfast
+show spanning-tree vlan 1
+-----------------------------------------------------
+interface g0/1-2
+channel-group 1 mode ?
+interface port-channel 1
+switchport mode trunk
+switchport trunk allowed vlan 10,20
+-----------------------------------------------------
+ip dhcp pool "jmeno-poolu"
+network 192.168.0.0 255.255.255.0
+default-router 192.168.0.1
+dns-server ?
+ip dhcp excluded-address 192.168.0.2
+ip dhcp excluded-address 192.168.0.2 192.168.0.49
+-----------------------------------------------------
+interface loopback 1
+ip address 192.168.0.1 255.255.255.240
+ip route 192.168.2.0 255.255.255.0 1.0.0.2
+ip route 192.168.2.0 255.255.255.0 1.1.0.2 5
+-----------------------------------------------------
+interface g0/1
+standby version 2
+standby 1 ip 192.168.1.254
+standby 1 priority 150
+standby 1 preempt
