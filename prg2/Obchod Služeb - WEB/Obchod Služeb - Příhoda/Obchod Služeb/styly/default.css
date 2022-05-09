@@ -1,0 +1,80 @@
+#sluzby {
+	background-color: #ddd;
+	display: block;
+	position: absolute;
+	left: 0%;
+	width: 80%;
+	float: left;
+	clear: none;
+}
+
+.sluzba {
+	float: left;
+	clear: none;
+	width: auto;
+	min-width: 200px;
+	max-width: 24%;
+	height: 600px;
+	padding: 5px 5px 0px 5px;
+}
+
+.sluzba img {
+	position: relative;
+	display: block;
+	width: auto;
+	min-width: 25%;
+	max-width: 96%;
+	min-height: 25%;
+	max-height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#formulare {
+	display: block;
+	position: absolute;
+	left: 80%;
+	width: 20%;
+	height: auto;
+	float: right;
+}
+
+#formulare > div {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+	float: left;
+	clear: both;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+
+#formulare span {
+	width: 80px;
+	margin-right: 10px;
+}
+
+#formulare form div {
+	display: block;
+	clear: both;
+	margin: 0px 10px 15px 10px;
+}
+
+#formulare > div > form > div > input {
+	width: 160px;
+}
+
+#formulare > div > form > input {
+	width: auto;
+	margin: 10px auto 0px auto;
+}
+
+#chyba {
+	display: block;
+	width: 100%;
+	height: auto;
+	color: red;
+	text-align: center;
+}
