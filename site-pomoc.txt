@@ -36,3 +36,5 @@ DHCP
 tvorba na routeru pomoci "ip dhcp pool (název)", "network (ip adresa rozsah) (maska)" gateway "default-router (ip routeru)"
 v conf t pro vyčlenení ip adresy kterou nechcene měnit "ip dhcp excluded-address (ip adresa)" 
 nebo rozsah "ip dhcp excluded-address (ip adr zacatek) (ip adr konec)"
+
+https://www.youtube.com/watch?v=Q-Io96sO2Wg
