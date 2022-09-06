@@ -1,0 +1,7 @@
+C:\Users\Computer\source\repos\Taylor\Taylor\bin\Debug\Taylor.exe.config
+C:\Users\Computer\source\repos\Taylor\Taylor\bin\Debug\Taylor.exe
+C:\Users\Computer\source\repos\Taylor\Taylor\bin\Debug\Taylor.pdb
+C:\Users\Computer\source\repos\Taylor\Taylor\obj\Debug\Taylor.csproj.AssemblyReference.cache
+C:\Users\Computer\source\repos\Taylor\Taylor\obj\Debug\Taylor.csproj.CoreCompileInputs.cache
+C:\Users\Computer\source\repos\Taylor\Taylor\obj\Debug\Taylor.exe
+C:\Users\Computer\source\repos\Taylor\Taylor\obj\Debug\Taylor.pdb
