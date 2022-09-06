@@ -1,0 +1,10 @@
+C:\Users\Tom\source\repos\reakcidoba\reakcidoba\bin\Debug\reakcidoba.exe.config
+C:\Users\Tom\source\repos\reakcidoba\reakcidoba\bin\Debug\reakcidoba.exe
+C:\Users\Tom\source\repos\reakcidoba\reakcidoba\bin\Debug\reakcidoba.pdb
+C:\Users\Tom\source\repos\reakcidoba\reakcidoba\obj\Debug\reakcidoba.csprojAssemblyReference.cache
+C:\Users\Tom\source\repos\reakcidoba\reakcidoba\obj\Debug\reakcidoba.Form1.resources
+C:\Users\Tom\source\repos\reakcidoba\reakcidoba\obj\Debug\reakcidoba.Properties.Resources.resources
+C:\Users\Tom\source\repos\reakcidoba\reakcidoba\obj\Debug\reakcidoba.csproj.GenerateResource.cache
+C:\Users\Tom\source\repos\reakcidoba\reakcidoba\obj\Debug\reakcidoba.csproj.CoreCompileInputs.cache
+C:\Users\Tom\source\repos\reakcidoba\reakcidoba\obj\Debug\reakcidoba.exe
+C:\Users\Tom\source\repos\reakcidoba\reakcidoba\obj\Debug\reakcidoba.pdb

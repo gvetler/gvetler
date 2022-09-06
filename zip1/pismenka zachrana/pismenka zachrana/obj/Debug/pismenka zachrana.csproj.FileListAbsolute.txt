@@ -1,0 +1,11 @@
+C:\Users\slapn\source\repos\pismenka zachrana\pismenka zachrana\bin\Debug\pismenka zachrana.exe.config
+C:\Users\slapn\source\repos\pismenka zachrana\pismenka zachrana\bin\Debug\pismenka zachrana.exe
+C:\Users\slapn\source\repos\pismenka zachrana\pismenka zachrana\bin\Debug\pismenka zachrana.pdb
+C:\Users\slapn\source\repos\pismenka zachrana\pismenka zachrana\obj\Debug\pismenka zachrana.csproj.AssemblyReference.cache
+C:\Users\slapn\source\repos\pismenka zachrana\pismenka zachrana\obj\Debug\pismenka zachrana.csproj.SuggestedBindingRedirects.cache
+C:\Users\slapn\source\repos\pismenka zachrana\pismenka zachrana\obj\Debug\pismenka_zachrana.Form1.resources
+C:\Users\slapn\source\repos\pismenka zachrana\pismenka zachrana\obj\Debug\pismenka_zachrana.Properties.Resources.resources
+C:\Users\slapn\source\repos\pismenka zachrana\pismenka zachrana\obj\Debug\pismenka zachrana.csproj.GenerateResource.cache
+C:\Users\slapn\source\repos\pismenka zachrana\pismenka zachrana\obj\Debug\pismenka zachrana.csproj.CoreCompileInputs.cache
+C:\Users\slapn\source\repos\pismenka zachrana\pismenka zachrana\obj\Debug\pismenka zachrana.exe
+C:\Users\slapn\source\repos\pismenka zachrana\pismenka zachrana\obj\Debug\pismenka zachrana.pdb

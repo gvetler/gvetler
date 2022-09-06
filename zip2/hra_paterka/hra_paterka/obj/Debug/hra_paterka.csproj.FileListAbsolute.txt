@@ -1,0 +1,11 @@
+C:\Users\slapn\source\repos\hra_paterka\hra_paterka\bin\Debug\hra_paterka.exe.config
+C:\Users\slapn\source\repos\hra_paterka\hra_paterka\bin\Debug\hra_paterka.exe
+C:\Users\slapn\source\repos\hra_paterka\hra_paterka\bin\Debug\hra_paterka.pdb
+C:\Users\slapn\source\repos\hra_paterka\hra_paterka\obj\Debug\hra_paterka.csproj.AssemblyReference.cache
+C:\Users\slapn\source\repos\hra_paterka\hra_paterka\obj\Debug\hra_paterka.csproj.SuggestedBindingRedirects.cache
+C:\Users\slapn\source\repos\hra_paterka\hra_paterka\obj\Debug\hra_paterka.Form1.resources
+C:\Users\slapn\source\repos\hra_paterka\hra_paterka\obj\Debug\hra_paterka.Properties.Resources.resources
+C:\Users\slapn\source\repos\hra_paterka\hra_paterka\obj\Debug\hra_paterka.csproj.GenerateResource.cache
+C:\Users\slapn\source\repos\hra_paterka\hra_paterka\obj\Debug\hra_paterka.csproj.CoreCompileInputs.cache
+C:\Users\slapn\source\repos\hra_paterka\hra_paterka\obj\Debug\hra_paterka.exe
+C:\Users\slapn\source\repos\hra_paterka\hra_paterka\obj\Debug\hra_paterka.pdb
