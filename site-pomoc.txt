@@ -1,0 +1,38 @@
+změna ip adresy musí být na interfacu-"ip route (ip adresa) (maska adresy)", na routeru jsou porty vypnute "no shutdown"
+zmena jmena- "hostname (jmeno)"
+dobra ip 192.168.0.0/24 255.255.255.0 a 1.0.0.2/30 255.255.255.252
+"write" zapíše do memory
+
+STATIC SMĚROVÁNÍ
+v "conf t" na routeru který má nastavení ip adresy zadáme-"ip route (adresa podsítě) (maska) (nexthop adresa) (počet skoků, čím méně tím větší priorita)"
+tohle se musí udělat na každém routeru jinak to nefachci
+je potřeba nastavit route také na router jinak tam neskočí
+
+RIP protokol
+musí být na routru v "(conf t)" 
+napiseme "router rip", vypneme "no auto-summary", je potřeba zvolit verzi dva jinak to zakopne "version 2"
+RIP neřeší masku, příkaz "network" přidá podsíť, dále příkaz "passive-interface (ze switche na router)" snižuje trafic
+tohle se musí udělat na každém routeru
+
+VLANY
+na portech v "conf t" se vytvoří "vlan (číslo)" "name (jmeno vlany)"
+potom na portech se musí nastavit na "switchport mode access" tím jsou povolený nebo něco takového,
+dále "switchport access vlan (číslo vlan)" se přidělí
+
+TRUNKY
+mezi switchi se nastaví port pomocí "switchport mode trunk" a potom "switchport trunk allowed vlan (číslo, může být více)"
+pro neotagované pakety se použije(musí být povolen trunk režim) "switchport trunk native vlan (číslo nějaké vlany)"
+
+STP
+zabranuje smyckam v siti
+
+ETHERCHANNEL PAGP
+porty do skupiny "int range (rozsah portu)" dále "channel-group (číslo) mode auto(na jedné straně a na druhé desirable)"
+opět musí být porty v režimu trunk a povolit na nich vlany "switchport trunk allowed vlan (číslo vlany)"
+pomocí "int port-channel (číslo)" se přistupuje ke groupě
+STATICKY ETH se akorát nastaví na obou stranách "channel-group (číslo) mode on"
+
+DHCP
+tvorba na routeru pomoci "ip dhcp pool (název)", "network (ip adresa rozsah) (maska)" gateway "default-router (ip routeru)"
+v conf t pro vyčlenení ip adresy kterou nechcene měnit "ip dhcp excluded-address (ip adresa)" 
+nebo rozsah "ip dhcp excluded-address (ip adr zacatek) (ip adr konec)"
